@@ -2,7 +2,7 @@
 
 require "spec_helper"
 
-RSpec.describe(JekyllTaggingAdv) do
+RSpec.describe(Jekyll::Tagger) do
   let(:overrides) { {} }
   let(:config) do
     Jekyll.configuration(Jekyll::Utils.deep_merge_hashes({

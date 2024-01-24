@@ -16,7 +16,7 @@ require_relative "jekyll-tagging-adv/version"
 #   collections:
 #     - changes
 
-module JekyllTaggingAdv
+module Jekyll
   class Error < StandardError; end
   # Your code goes here...
   module Helpers
