@@ -6,3 +6,14 @@
 /pkg/
 /spec/reports/
 /tmp/
+.rspec_status
+spec/dest
+.bundle
+*.gem
+spec/fixtures/.jekyll-metadata
+spec/fixtures/.jekyll-cache
+*.bundle
+*.so
+*.o
+*.a
+mkmf.log
